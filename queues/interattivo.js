@@ -76,7 +76,6 @@ var leggiInput = function () {
                     break
                 case "d":
                     return rl.close();
-                    break;
                 default:
                     var input = line.split(",")
                     var p = new Patient(input[0], input[1]);
